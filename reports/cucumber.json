@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Validação de Login",
+    "line": 2,
+    "id": "validação-de-login",
+    "tags": [],
+    "uri": "test\\behavior\\features\\login.feature",
+    "elements": [
+      {
+        "id": "validação-de-login;1.1.1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "1.1.1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que eu acessei o site",
+            "match": {
+              "location": "test\\behavior\\steps\\login.step.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7348
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "estiver na tela de login",
+            "match": {
+              "location": "test\\behavior\\steps\\login.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "deve ter o campo 'user' e 'pass'",
+            "match": {
+              "location": "test\\behavior\\steps\\login.step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
